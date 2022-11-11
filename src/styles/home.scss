@@ -1,0 +1,91 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(11, 11, 17);
+    align-content: center;
+
+    > .card-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+        padding: 4rem;
+
+
+               a {
+                color: rgb(255, 255, 255);
+                font-family: sans-serif;
+                font-size: 1.3rem;
+                font-weight: 200;
+                // background: rgb(255, 153, 153);
+                box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.5);
+                border-radius: 10px;
+                transition: all 0.2s ease-in-out;
+                background-size: 200% auto;
+
+                &:hover {
+                    background-position: right center;
+                }
+                
+                div {
+                    width: 200px;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+            }}
+        
+    }
+}
+
+.link1 {
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+.link2 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  }
+  
+  .link3 {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  }
+  
+  .link4 {
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  }
+  
+  .link5{
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
+  
+  .link6 {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+  }
+  .link7 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  }
+  
+  .link8{
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  }
+  
+  .link9 {
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  }
+  
+  .link10 {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
+
+@media screen and (max-width: 700px) {
+    .card-container {
+        gap : 10px;
+    }
+    main {
+        height: 100%;
+    }
+}
